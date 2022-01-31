@@ -26,7 +26,7 @@ public class signInActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_signin);
+        setContentView(R.layout.acti);
 
         Button button2 = (Button) findViewById(R.id.btn_signIn); //누르는 버튼
 
