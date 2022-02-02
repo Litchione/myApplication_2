@@ -3,7 +3,7 @@ package com.example.myapplication_1;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
-import android.support.v4.app.AppCompatActivity;
+
 import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
@@ -20,7 +20,7 @@ public class comments extends AppCompatActivity {
         add_view.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Sub n_layout = new Sub(getApplicationContext());
+                commentsSub n_layout = new commentsSub(getApplicationContext());
                 LinearLayout con = (LinearLayout)findViewById(R.id.con);
                 con.addView(n_layout);
 

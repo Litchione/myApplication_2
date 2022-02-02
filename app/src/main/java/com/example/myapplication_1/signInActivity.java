@@ -25,8 +25,10 @@ public class signInActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        //접근 제어자 : private -> default -> protected -> public 순으로 보다 많은 접근을 허용한다
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.acti);
+        // setContentView(R.layout.acti); -> 레이아웃 위치 수정 필요
+        //setContentView - 화면전환
 
         Button button2 = (Button) findViewById(R.id.btn_signIn); //누르는 버튼
 
