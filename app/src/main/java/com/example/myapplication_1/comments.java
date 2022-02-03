@@ -1,11 +1,9 @@
 package com.example.myapplication_1;
 
-/*
-
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
-import androidx.appcompat.app.AppCompatActivity;
+import android.support.v4.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
@@ -37,4 +35,3 @@ public class comments extends AppCompatActivity {
         });
     }
 }
-*/
