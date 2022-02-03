@@ -10,7 +10,7 @@ import android.widget.Button;
 import android.widget.Toolbar;
 
 public class signUpActivity extends AppCompatActivity {
-
+//회원가입
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,7 +23,7 @@ public class signUpActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(
                         getApplicationContext(),
-                        mainActivity.class); //넘어갈 다음 화면
+                        signInActivity.class); //넘어갈 다음 화면
                 startActivity(intent);
             }
         });
