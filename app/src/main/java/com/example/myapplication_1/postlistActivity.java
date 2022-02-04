@@ -52,7 +52,7 @@ Button button1;
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
 
-        //-----------------------------------------------
+        //-----------------------------------------------통신
         // url 생성
         HttpUrl.Builder urlBuilder = HttpUrl.parse("https://ktl-last.herokuapp.com/posts").newBuilder();
         String url = urlBuilder.build().toString();
