@@ -22,6 +22,9 @@
             android:name=".signUpActivity"
             android:exported="false"
             android:parentActivityName=".signUpActivity" />
+        <activity android:name=".postlistActivity" />
+        <activity android:name=".RegisterActivity"/>
+        <activity android:name=".DetailActivity"/>
         <activity
             android:name=".initActivity"
             android:exported="true">

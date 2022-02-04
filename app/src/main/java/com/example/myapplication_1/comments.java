@@ -3,14 +3,14 @@ package com.example.myapplication_1;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
-import android.support.v4.app.AppCompatActivity;
+
 import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
 public class comments extends AppCompatActivity {
-
+/*
     Button add_view;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,5 +33,5 @@ public class comments extends AppCompatActivity {
                 });
             }
         });
-    }
+    }*/
 }
